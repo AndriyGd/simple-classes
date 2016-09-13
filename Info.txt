@@ -7,3 +7,5 @@ git add . stages new and modified, without deleted
 git add -u stages modified and deleted, without newgit
 
 tech day
+
+SSH - OK
