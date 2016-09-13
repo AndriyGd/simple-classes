@@ -13,6 +13,11 @@ namespace SimpleBookLibrary
         public int Version { get; set; }
         public DateTime DatePublish { get; set; }
 
+		public Book()
+		{
+			
+		}
+		
         public override string ToString()
         {
             return $"Name: {Name}\nAuthor: {Author.Name}\nVersion: {Version}\nDate publish: {DatePublish.Date}";
