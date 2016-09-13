@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleBookLibrary
 {
-    class Book
+    class Book : INotyfierPropertyChanged
     {
         public string Name { get; set; }
         public Author Author { get; set; }
