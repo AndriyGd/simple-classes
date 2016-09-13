@@ -9,3 +9,5 @@ git add -u stages modified and deleted, without newgit
 tech day
 
 SSH - OK
+
+git push -u
